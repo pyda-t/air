@@ -944,13 +944,14 @@ html {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #fff;
-  border-radius: none;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
   color: #fff;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 .form__input::-webkit-input-placeholder {
